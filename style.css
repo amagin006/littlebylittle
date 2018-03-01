@@ -8,3 +8,40 @@ Author: ★ テーマ作成者の名前（空欄でも可） ★
 Tags: 
 Version: 0.1.2
 */
+
+/*-- topへ戻るのボタン --*/
+#page-top {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    bottom: -80px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: rgba(0,74,212,0.7);
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    transition: .5s;
+}
+
+.box1 {
+	background-color: #D9F1F8;
+	padding: 1.8em;
+	margin: 2em;
+}
+h4 {
+	background: #e2ffd0;
+}
+
+/*----------AddQuicktag-------*/
+.marker_yellow_half {
+	background: rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
+}
+.marker_pink_half{
+	background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #FFDFEF 0%) repeat scroll 0 0;
+}

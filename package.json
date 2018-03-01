@@ -1,22 +1,14 @@
 {
-  "name": "lightning_child_sample",
+  "name": "sass_package",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amagin006/littlebylittle.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amagin006/littlebylittle/issues"
-  },
-  "homepage": "https://github.com/amagin006/littlebylittle#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"

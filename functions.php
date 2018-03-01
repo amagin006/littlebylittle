@@ -73,3 +73,16 @@ function add_wp_footer_custom(){ ?>
 <!-- footerに書きたいコード -->
 <?php }
 // add_action( 'wp_footer', 'add_wp_footer_custom', 1 );
+// 
+
+/*-------------------------------------------*/
+/*	CopyRight
+/*-------------------------------------------*/
+function lightning_the_footerCopyRight_custom(){
+
+	// copyright
+	/*------------------*/
+	$lightning_footerCopyRight = '<p>'.sprintf( __( 'Copyright &copy; %s All Rights Reserved.', 'lightning' ), get_bloginfo('name') ).'</p>';
+	echo apply_filters( 'lightning_footerCopyRightCustom', $lightning_footerCopyRight );
+
+}
